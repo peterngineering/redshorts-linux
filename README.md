@@ -11,6 +11,10 @@ core repos as close to the PNAELV as possible.
 
 
 WIP:
+<img width="653" height="313" alt="image" src="https://github.com/user-attachments/assets/0be044e1-c650-4d6c-bc21-6dd926d8c905" />
+
+
+
 <code>
 
 mockbuild@armv7hnl-tinkerA17]$ rustc --print target-libdir
