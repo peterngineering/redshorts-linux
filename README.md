@@ -62,8 +62,8 @@ gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC)
 
 
 
-
-
+*Most packages are built native on a Rpi4 or Tinker a-17 and or with mock.
+Below ins helpful info imported from RSEL, some bits may nor may not be needed for native building.
 
 
 
