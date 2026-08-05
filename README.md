@@ -1,6 +1,7 @@
 # RedShorts / EL9
 
-**RedShorts Linux** was forked/ported from RedSleeve Linux , which itself is  a 3rd party [ARMv7](http://en.wikipedia.org/wiki/ARM_architecture) port of a Linux distribution of a Prominent North American Enterprise Linux Vendor (PNAELV). They object to being referred to by name in the context of clones and ports of their distribution, but if you are aware of [CentOS](http://en.wikipedia.org/wiki/CentOS), you can probably guess what [RedShorts](http://redshorts-linux.local) is based on. 
+**RedShorts Linux** was forked/ported from RedSleeve Linux for armv7l.
+[ARM](http://en.wikipedia.org/wiki/ARM_architecture) 
 
 **RedShorts Linux** follows most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
 core repos as close to the PNAELV as possible. 
