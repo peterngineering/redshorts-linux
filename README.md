@@ -10,6 +10,69 @@ core repos as close to the PNAELV as possible.
 	* RedShorts does not have any public RPM repos at this time.
 
 
+WIP:
+<code>
+
+mockbuild@armv7hnl-tinkerA17]$ rustc --print target-libdir
+/usr/lib/rustlib/armv7-unknown-linux-gnueabihf/lib
+
+[mockbuild@armv7hnl-tinkerA17]$ clang -print-effective-triple
+armv7-redhat-linux-gnueabihf
+
+/usr/lib/ld-linux-armhf.so.3 --help|tail -n5
+
+[mockbuild@armv7hnl-tinkerA17] /usr/lib/ld-linux-armhf.so.3 --help|tail -n5
+Legacy HWCAP subdirectories under library search path directories:
+  v7l (AT_PLATFORM; supported, searched)
+  tls (supported, searched)
+  neon (supported, searched)
+  vfp (supported, searched)
+
+[mockbuild@armv7hnl-tinkerA17]$ gcc -v
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/armv7hl-redhat-linux-gnueabi/11/lto-wrapper
+Target: armv7hl-redhat-linux-gnueabi
+Configured with: ../configure --enable-bootstrap --enable-host-pie --enable-host-bind-now --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --enable-initfini-array --without-isl --enable-multilib --with-linker-hash-style=gnu --enable-gnu-indirect-function --disable-sjlj-exceptions --with-tune=generic-armv7-a --with-arch=armv7-a --with-float=hard --with-fpu=vfpv3-d16 --with-abi=aapcs-linux --build=armv7hl-redhat-linux-gnueabi
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.5.0 20240719 (Red Hat 11.5.0-14) (GCC)
+
+
+[mockbuild@armv7hnl-tinkerA17]$ /opt/rh/gcc-toolset-15/root/bin/gcc -v
+Using built-in specs.
+COLLECT_GCC=/opt/rh/gcc-toolset-15/root/bin/gcc
+COLLECT_LTO_WRAPPER=/opt/rh/gcc-toolset-15/root/usr/libexec/gcc/armv7hl-redhat-linux-gnueabi/15/lto-wrapper
+Target: armv7hl-redhat-linux-gnueabi
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/gcc-toolset-15/root/usr --mandir=/opt/rh/gcc-toolset-15/root/usr/share/man --infodir=/opt/rh/gcc-toolset-15/root/usr/share/info --with-bugurl=https://bugs.rockylinux.org --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --without-isl --enable-gnu-indirect-function --disable-sjlj-exceptions --with-tune=generic-armv7-a --with-arch=armv7-a --with-float=hard --with-fpu=vfpv3-d16 --with-abi=aapcs-linux --build=armv7hl-redhat-linux-gnueabi --enable-host-pie --enable-host-bind-now
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC)
+
+</code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
 
 
 ## Extra build instructions
