@@ -63,8 +63,9 @@ gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC)
 
 
 *Most packages are built native on a Rpi4 or Tinker a-17 and or with mock.
-Below ins helpful info imported from RSEL, some bits may nor may not be needed for native building.
+Below is helpful info imported from RSEL, some bits may nor may not be needed for native building.
 
+I had considered building a armv7hnl port that required NEON but decided that I could just build HNL tuned packages instead as needed and set the platform to a higher level which would then allow armv7hnl and below without errors from rpm/dnf.
 
 
 
