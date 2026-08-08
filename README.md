@@ -1,6 +1,7 @@
 # RedShorts / EL9
 
-**RedShorts Linux** was forked/ported from RedSleeve Linux for armv7l.
+**RedShorts Linux** was forked/ported from RedSleeve Linux targeting  armv7l.
+see:
 [ARM](http://en.wikipedia.org/wiki/ARM_architecture) 
 
 **RedShorts Linux** follows most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
