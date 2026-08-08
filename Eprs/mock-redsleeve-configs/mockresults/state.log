@@ -1,0 +1,15 @@
+2026-08-08 04:53:28,448 - Mock Version: 3.0
+2026-08-08 04:53:29,058 - Start: dnf install
+2026-08-08 04:56:59,190 - Finish: dnf install
+2026-08-08 04:57:01,497 - Start: creating root cache
+2026-08-08 04:57:16,834 - Finish: creating root cache
+2026-08-08 04:57:16,837 - Finish: chroot init
+2026-08-08 04:57:17,423 - Start: build phase for mock-redsleeve-configs-37.4-1.el9.src.rpm
+2026-08-08 04:57:17,430 - Start: build setup for mock-redsleeve-configs-37.4-1.el9.src.rpm
+2026-08-08 04:57:20,937 - Finish: build setup for mock-redsleeve-configs-37.4-1.el9.src.rpm
+2026-08-08 04:57:20,939 - Start: Outputting list of installed packages
+2026-08-08 04:57:21,620 - Finish: Outputting list of installed packages
+2026-08-08 04:57:21,621 - Start: rpmbuild mock-redsleeve-configs-37.4-1.el9.src.rpm
+2026-08-08 04:57:22,950 - Finish: rpmbuild mock-redsleeve-configs-37.4-1.el9.src.rpm
+2026-08-08 04:57:22,965 - Finish: build phase for mock-redsleeve-configs-37.4-1.el9.src.rpm
+2026-08-08 04:57:22,981 - Finish: run
