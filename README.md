@@ -13,6 +13,10 @@ core repos as close to the PNAELV as possible.
 	
 	*  RedShorts does not have any public RPM repos at this time to host or upload everything.
 
+	*  The 'Eprs' repo will contain custom RPMS that are new or highly modified/custom and don't belong in the core repos.
+
+	*  The 'devel' repo is same as upstream and includes many pkgs from RSELs/rl9 repo.
+
 	*  Any install images provided (if any) are for testing only.
 
 ---
