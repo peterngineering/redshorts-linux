@@ -10,10 +10,10 @@ Thread(s) per core:                      1
 Core(s) per socket:                      4
 Socket(s):                               1
 Stepping:                                r0p3
-CPU(s) scaling MHz:                      100%
+CPU(s) scaling MHz:                      40%
 CPU max MHz:                             1500.0000
 CPU min MHz:                             600.0000
-BogoMIPS:                                270.00
+BogoMIPS:                                108.00
 Flags:                                   half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
 Vulnerability Gather data sampling:      Not affected
 Vulnerability Indirect target selection: Not affected
@@ -36,11 +36,11 @@ Vulnerability Vmscape:                   Not affected
 
 Memory:
                total        used        free      shared  buff/cache   available
-Mem:         3939484      188160      987100         376     2808348     3751324
-Swap:        1572860       10488     1562372
+Mem:           3.8Gi       130Mi       879Mi       0.0Ki       2.8Gi       3.6Gi
+Swap:          1.5Gi        15Mi       1.5Gi
 
 
 Storage (chroot, cache_topdir):
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/mmcblk0p2   31G   16G   15G  53% /
-/dev/mmcblk0p2   31G   16G   15G  53% /
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2 ext4   31G   20G   11G  66% /
+/dev/mmcblk0p2 ext4   31G   20G   11G  66% /

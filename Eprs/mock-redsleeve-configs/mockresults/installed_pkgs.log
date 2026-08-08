@@ -5,7 +5,7 @@ perl-srpm-macros-1-41.el9.noarch 1659079733 862 5e7096dac5383117f7efa6b340aab62a
 openblas-srpm-macros-2-11.el9.redsleeve.noarch 1659224297 103 26fcc7a0669da3fd5eae0ab8300c5c74 installed
 ocaml-srpm-macros-6-6.el9.noarch 1659036992 745 5f7082acf2dc73c71f7a55f428e79d91 installed
 ghc-srpm-macros-1.5.0-6.el9.noarch 1658887730 535 063c52e0542aacbebe817247e41aa072 installed
-tzdata-2026b-1.el9_8.noarch 1782162445 1922383 7ffcd66c9e45a82e472f04d6e50d956d installed
+tzdata-2026c-1.el9_8.noarch 1786166291 1917852 42b04b400e9d5ce115bffafb262f9aaf installed
 publicsuffix-list-dafsa-20210518-3.el9.noarch 1658484769 68815 408fcde2d59a2f9a3e18ecdd96615971 installed
 pkgconf-m4-1.7.3-10.el9.noarch 1686085492 14187 ff787b3cac301d2e788290b6ff205bbd installed
 pcre2-syntax-10.40-6.el9.noarch 1735104373 234324 b6c95c3710d14408d7b61c6dd933e4e9 installed
