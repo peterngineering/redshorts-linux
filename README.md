@@ -10,7 +10,7 @@ core repos as close to the PNAELV as possible.
 	*  RedShorts includes SPECS/RPMS/SRPMS and mockresults that are new or have changes. 
 
 	*  RPMS here are not yet signed yet. You may re-use any you find and call them your own as you see fit, just share
-	   back any changes please. Crediting me in any way  is not necessary or required. 
+	   back any changes please. Crediting me in any way is not necessary or required. 
 	
 	*  Links for upstream source(s) that are NOT changed are at the bottom of this page.
 	
