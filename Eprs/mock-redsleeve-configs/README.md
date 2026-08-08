@@ -1,0 +1,11 @@
+*  Only mock-3.0-1 is tested so far.
+
+*  Once you install mock-red*-configs and its dependency mock-3.0-1*
+
+*  Block other mock versions in /etc/yum.conf with:
+    <code>
+    Exclude=mock*
+    </code>
+
+** I know the lastest Mocks will not work with the current redsleeve and redshorts configs, so pin to 3.0-1 until 
+the configs are reworked to be compatible with the latest.
