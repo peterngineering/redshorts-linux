@@ -1,4 +1,7 @@
-*  Only mock-3.0-1 is tested so far.
+*  working mock versions tested so far:
+    *  mock-3.0-1
+    *  mock-4.1-1
+    *  
 
   I'm testing with the following option to see the highest version mock possible to use:
  <code>
