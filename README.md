@@ -11,6 +11,8 @@ core repos as close to the PNAELV as possible.
 
 	*  RPMS here are not yet signed yet. You may re-use any you find and call them your own as you see fit, just share
 	   back any changes please. Crediting me in any way is not necessary or required. 
+
+    *  SRPMS here have been tested to build against both RSEL and Redshorts using mock.
 	
 	*  Links for upstream source(s) that are NOT changed are at the bottom of this page.
 	
