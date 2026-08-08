@@ -5,10 +5,10 @@
 
 **RedShorts Linux** follows most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
 core repos as close to the PNAELV as possible. 
-	* RedShorts only includes changes here and patches as needed. 
-	* Links for upstream source(s) are in the spec files, see bottom of page for other SRPM urls.
-	* Any install images provided (if any) are for testing only.
-	* RedShorts does not have any public RPM repos at this time.
+	*  RedShorts includes SPECS/RPMS/SRPMS and mockresults that are new or have changes. 
+	*  Links for upstream source(s) are in the spec files, see bottom of page for other SRPM urls.
+	*  Any install images provided (if any) are for testing only.
+	*  RedShorts does not have any public RPM repos at this time.
 
 
 WIP:
