@@ -13,6 +13,14 @@ core repos as close to the PNAELV as possible.
 	   back any changes please. Crediting me in any way is not necessary or required. 
 
     *  SRPMS here have been tested to build against both RSEL and Redshorts using mock.
+
+		* Redshorts is testing a custom_vendor macro for all changed rpms. Changed SRPM specs
+		will have %{?custom_vendor} appended after the {dist} macro in Release lines. This will be ignored
+		unless the macro is populated via cmd line for rpmbuild/mock etc or set in .rpmmacros
+			-D "custom_vendor .redsleeve"
+		      or
+			-D "custom_vendor .redshorts"
+			
 	
 	*  Links for upstream source(s) that are NOT changed are at the bottom of this page.
 	
