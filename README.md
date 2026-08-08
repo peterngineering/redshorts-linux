@@ -7,7 +7,9 @@
 core repos as close to the PNAELV as possible. 
 
 	*  RedShorts includes SPECS/RPMS/SRPMS and mockresults that are new or have changes. 
+	
 	*  Links for upstream source(s) that are NOT changed are at the bottom of this page.
+	
 	*  RedShorts does not have any public RPM repos at this time to host or upload everything.
 
 	*  Any install images provided (if any) are for testing only.
