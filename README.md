@@ -14,7 +14,10 @@ core repos as close to the PNAELV as possible.
 
 	*  Any install images provided (if any) are for testing only.
 
+---
+
 WIP:
+
 <img width="653" height="313" alt="image" src="https://github.com/user-attachments/assets/0be044e1-c650-4d6c-bc21-6dd926d8c905" />
 
 
@@ -69,11 +72,9 @@ gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC)
 *Most packages are built native on a Rpi4 or Tinker a-17 and or with mock.
 Below is helpful info imported from RSEL, some bits may nor may not be needed for native building.
 
-I had considered building a armv7hnl port that required NEON but since NEON is not fully IEEE-754 complaint on armv7, I decided that I could just build HNL tuned packages instead as needed and set the platform to a higher level which would then allow armv7hnl and below without errors from rpm/dnf. This is the best of both worlds on armv7.
 
-
-
-
+---
+---
 
 
 
