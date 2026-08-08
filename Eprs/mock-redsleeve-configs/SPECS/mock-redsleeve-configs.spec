@@ -1,5 +1,5 @@
 Name:       mock-redsleeve-configs
-Version:    37.4
+Version:    44.4
 Release:    1%{?dist}
 Summary:    Mock RedSleeve Linux config files basic chroots
 
@@ -12,10 +12,12 @@ Provides: mock-redsleeve-configs
 
 # distribution-gpg-keys contains GPG keys used by mock configs
 Requires:   distribution-gpg-keys >= 1.117
-# specify minimal compatible version of mock
+# specify specific compatible version of mock for rsel
+# newer versions HAVE NOT YET been tested
 Requires:   mock >= 3.0-1
-Requires:   mock-filesystem
-
+Requires:   mock-filesystem 
+Requires:   mock-core-configs 
+Requires:   redsleeve-release >= 9.8
 Requires(post): coreutils
 # to detect correct default.cfg
 # python3-libdnf5 - Fedora and RHEL10+
@@ -44,6 +46,6 @@ cp -a etc/mock/templates/redsleeve*.tpl %{buildroot}%{_sysconfdir}/mock/template
 %doc README
 
 %changelog
-* Sat Aug 08 2026 mockbuild - 37.4-1
+* Sat Aug 08 2026 mockbuild - 44.4-1
 - create redsleeve armv6hl/armv7hl mock configs pkg for RSEL community
 
