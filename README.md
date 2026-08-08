@@ -17,7 +17,7 @@ core repos as close to the PNAELV as possible.
 
 	*  The 'devel' repo directory is the same as upstream and includes many pkgs from RSELs/rl9 repo.
 
-    *  The 'raspberrypi' repo directory is the same as RSEL's and contains RPI kernels and specific pkgs for RPIS
+    *  The 'raspberrypi' repo directory is the same as RSEL and contains RPI kernels and specific pkgs for RPIS
 
 	*  Any install images provided (if any) are for testing only.
 
