@@ -1,6 +1,6 @@
 # ffplayit:
 
-* Is just ffplay customized for playback with a systemd unit file. 
+* Is just ffplay from the ffmpeg project customized for playback with a systemd unit file. 
 * Designed to not interfere with another ffmpeg install.
 
 ---
