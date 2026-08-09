@@ -1,1 +1,35 @@
-.
+[Unit]
+Description=ffplayit service
+After=network.target 
+
+[Service]
+Type=simple
+
+# for running in X, set the DISPLAY env var
+# Environment=DISPLAY=:0
+
+# add a user and put them in audio,video,input group
+# usermod -aG audio,video,input $USERNAME
+# User=camkiosk
+
+
+# usage examples
+# ffplay does not support all containers/protocols and stream types, ymmv
+#
+# motion stream example
+# ExecStart=/usr/bin/ffplayit http://192.168.1.100:8081/1
+#
+# rtsp stream example for foscam
+# ExecStart=/usr/bin/ffplayit rtsp://$USERNAME:$PASSWORD@192.168.1.101:88/videoMain
+#
+# hdhr stream example on vchannel 1.2
+# ExecStart=/usr/bin/ffplay http://192.168.1.102:5004/auto/v1.2
+
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=control-group
+
+# Whether systemd will continue over-watch and restart on any halt
+Restart=always
+RestartSec=8
+[Install]
+WantedBy=multi-user.target
