@@ -12,6 +12,8 @@ core repos as close to the PNAELV as possible.
 *  The logs from the last test build(armv6) is in : mockresults  
 
 *  RedShorts does not have any public RPM repos at this time to host or upload everything.
+*  Links for full upstream source(s) are at the bottom of this page.
+
 *  Any tested RPMS are not yet signed.
 *  You may re-use any you find and call them your own as you see fit, just share
 	   back any changes please. Crediting me in any way is not necessary or required. 
@@ -22,14 +24,13 @@ core repos as close to the PNAELV as possible.
 			-D "custom_vendor .redsleeve"
 		      or
 			-D "custom_vendor .redshorts"
-			
-	*  Links for full upstream source(s) that are at the bottom of this page.
+
+		
 		
 	*  The 'Eprs' repo directory will contain custom RPMS that are new or highly modified/custom and don't belong in the core repos.
 
-	*  The 'devel' repo directory is the same as upstream and includes many pkgs from RSELs/rl9 repo.
-
-    *  The 'raspberrypi' repo directory is the same as RSEL and contains RPI kernels and specific pkgs for RPIS
+	*  The 'devel' repo directory is the same as upstream and will also include any changed specs from the RSEL 'BuildDeps/rl9' Repo
+    *  The 'raspberrypi' repo directory is the same as RSEL and contains RPI kernels and specific pkgs for RPIs
 
 	*  Any install images provided (if any) are for testing only.
 
