@@ -7,7 +7,7 @@ see:
 **RedShorts Linux** follows most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
 core repos as close to the PNAELV as possible. 
 
-*  RedShorts includes SPECS that are new or have changes
+*  The RedShorts Linux repo here includes SPECS that are new or have changes
 *  SPECS here have been tested to build against both RSEL(armv6) and Redshorts(armv7) using mock.
 *  The logs from the last test build(armv6) is in : mockresults  
 
