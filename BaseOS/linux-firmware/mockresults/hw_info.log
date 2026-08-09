@@ -1,0 +1,46 @@
+CPU info:
+Architecture:                            armv7l
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               ARM
+Model name:                              Cortex-A72
+Model:                                   3
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                r0p3
+CPU(s) scaling MHz:                      100%
+CPU max MHz:                             1500.0000
+CPU min MHz:                             600.0000
+BogoMIPS:                                270.00
+Flags:                                   half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Not affected
+Vulnerability Spectre v1:                Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:                Vulnerable
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           917Mi       141Mi        11Mi       6.0Mi       786Mi       775Mi
+Swap:          2.0Gi       0.0Ki       2.0Gi
+
+
+Storage (chroot, cache_topdir):
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/sda2      ext4   31G   14G   17G  46% /
+/dev/sda2      ext4   31G   14G   17G  46% /
