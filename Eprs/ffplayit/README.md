@@ -18,17 +18,14 @@ I have a SPEC here for MESA that includes the vc4/v3d module inclusions.
 For nonX console kms use make sure to add a entry for vc4
 to /boot/config.txt for your rpi type:
 
-
+<code>
 [pi4]
-#Enable DRM VC4 V3D driver
 dtoverlay=vc4-kms-v3d-pi4
 max_framebuffers=2
-
 [pi]
-#Enable DRM VC4 V3D driver
 dtoverlay=vc4-kms-v3d
 max_framebuffers=2
-
+</code>
 ---
 
 for systemd kiosk use edit:
