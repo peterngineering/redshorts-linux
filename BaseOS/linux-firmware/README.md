@@ -6,6 +6,6 @@
  
 * My solutions:
   * Broke out the brcm/cypress firmware in the spec to separate packages based on other inline examples.
-  * Disabled compression in the spec, so that auto-loading will work auto-magically.
+  * Disabled compression in the spec, so that auto-loading will work auto-magically if the full firmware is installed.
 
   
