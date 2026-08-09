@@ -27,7 +27,7 @@ core repos as close to the PNAELV as possible.
 
 		
 		
-	*  The 'Eprs' repo directory will contain custom RPMS that are new or highly modified/custom and don't belong in the core repos.
+	*  The 'Eprs' repo directory will contain custom SPECS/RPMS that are new or highly modified/custom and don't belong in the core repos.
 
 	*  The 'devel' repo directory is the same as upstream and will also include any changed specs from the RSEL 'BuildDeps/rl9' Repo
     *  The 'raspberrypi' repo directory is the same as RSEL and contains RPI kernels and specific pkgs for RPIs
