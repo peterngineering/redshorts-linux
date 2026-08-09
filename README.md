@@ -7,13 +7,15 @@ see:
 **RedShorts Linux** follows most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
 core repos as close to the PNAELV as possible. 
 
-	*  RedShorts includes SPECS/RPMS/SRPMS and mockresults that are new or have changes. 
+*  RedShorts includes SPECS that are new or have changes
+*  SPECS here have been tested to build against both RSEL(armv6) and Redshorts(armv7) using mock.
+*  The logs from the last test build(armv6) is in : mockresults  
 
-	*  RPMS here are not yet signed yet. You may re-use any you find and call them your own as you see fit, just share
+*  RedShorts does not have any public RPM repos at this time to host or upload everything.
+*  Any tested RPMS are not yet signed.
+*  You may re-use any you find and call them your own as you see fit, just share
 	   back any changes please. Crediting me in any way is not necessary or required. 
-
-    *  SRPMS here have been tested to build against both RSEL and Redshorts using mock.
-
+   
 		* Redshorts is testing a custom_vendor macro for all changed rpms. Changed SRPM specs
 		will have %{?custom_vendor} appended after the {dist} macro in Release lines. This will be ignored
 		unless the macro is populated via cmd line for rpmbuild/mock etc or set in .rpmmacros
@@ -21,11 +23,8 @@ core repos as close to the PNAELV as possible.
 		      or
 			-D "custom_vendor .redshorts"
 			
-	
-	*  Links for upstream source(s) that are NOT changed are at the bottom of this page.
-	
-	*  RedShorts does not have any public RPM repos at this time to host or upload everything.
-
+	*  Links for full upstream source(s) that are at the bottom of this page.
+		
 	*  The 'Eprs' repo directory will contain custom RPMS that are new or highly modified/custom and don't belong in the core repos.
 
 	*  The 'devel' repo directory is the same as upstream and includes many pkgs from RSELs/rl9 repo.
@@ -33,6 +32,8 @@ core repos as close to the PNAELV as possible.
     *  The 'raspberrypi' repo directory is the same as RSEL and contains RPI kernels and specific pkgs for RPIS
 
 	*  Any install images provided (if any) are for testing only.
+
+    *  Until I work out the structure, the git repo here will be messy as uploads are done manually.
 
 
 ---
