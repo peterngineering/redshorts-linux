@@ -1,1 +1,22 @@
-.
+2026-08-08 23:36:12,018 - Mock Version: 6.7
+2026-08-08 23:36:12,027 - Start(bootstrap): chroot init
+2026-08-08 23:36:12,488 - Start(bootstrap): installing dnf tooling
+2026-08-08 23:38:19,546 - Finish(bootstrap): installing dnf tooling
+2026-08-08 23:38:19,671 - Start(bootstrap): creating root cache
+2026-08-08 23:38:32,953 - Finish(bootstrap): creating root cache
+2026-08-08 23:38:32,954 - Finish(bootstrap): chroot init
+2026-08-08 23:38:32,956 - Start: chroot init
+2026-08-08 23:38:33,556 - Start: installing minimal buildroot with dnf
+2026-08-08 23:40:44,503 - Finish: installing minimal buildroot with dnf
+2026-08-08 23:40:44,986 - Start: creating root cache
+2026-08-08 23:41:16,096 - Finish: creating root cache
+2026-08-08 23:41:16,097 - Finish: chroot init
+2026-08-08 23:41:16,764 - Start: build phase for ffplayit-5.1.10-1.el9.src.rpm
+2026-08-08 23:41:16,765 - Start: build setup for ffplayit-5.1.10-1.el9.src.rpm
+2026-08-08 23:43:07,371 - Finish: build setup for ffplayit-5.1.10-1.el9.src.rpm
+2026-08-08 23:43:07,373 - Start: rpmbuild ffplayit-5.1.10-1.el9.src.rpm
+2026-08-08 23:43:07,373 - Start: Outputting list of installed packages
+2026-08-08 23:43:08,400 - Finish: Outputting list of installed packages
+2026-08-09 01:44:13,058 - Finish: rpmbuild ffplayit-5.1.10-1.el9.src.rpm
+2026-08-09 01:44:13,165 - Finish: build phase for ffplayit-5.1.10-1.el9.src.rpm
+2026-08-09 01:44:13,360 - Finish: run
