@@ -1,1 +1,20 @@
-.
+2026-08-09 20:41:39,792 - Mock Version: 6.7
+2026-08-09 20:41:39,805 - Start(bootstrap): chroot init
+2026-08-09 20:41:39,834 - Start(bootstrap): unpacking root cache
+2026-08-09 20:41:56,657 - Finish(bootstrap): unpacking root cache
+2026-08-09 20:41:58,486 - Finish(bootstrap): chroot init
+2026-08-09 20:41:58,489 - Start: chroot init
+2026-08-09 20:41:58,507 - Start: unpacking root cache
+2026-08-09 20:42:30,963 - Finish: unpacking root cache
+2026-08-09 20:42:32,134 - Start: dnf4 update
+2026-08-09 20:42:52,485 - Finish: dnf4 update
+2026-08-09 20:42:53,012 - Finish: chroot init
+2026-08-09 20:42:53,013 - Start: build phase for raspberrypi4-6.12.96-v7l.1.el9.src.rpm
+2026-08-09 20:42:53,013 - Start: build setup for raspberrypi4-6.12.96-v7l.1.el9.src.rpm
+2026-08-09 20:47:46,446 - Finish: build setup for raspberrypi4-6.12.96-v7l.1.el9.src.rpm
+2026-08-09 20:47:46,451 - Start: rpmbuild raspberrypi4-6.12.96-v7l.1.el9.src.rpm
+2026-08-09 20:47:46,453 - Start: Outputting list of installed packages
+2026-08-09 20:47:47,761 - Finish: Outputting list of installed packages
+2026-08-09 22:42:18,472 - Finish: rpmbuild raspberrypi4-6.12.96-v7l.1.el9.src.rpm
+2026-08-09 22:42:56,429 - Finish: build phase for raspberrypi4-6.12.96-v7l.1.el9.src.rpm
+2026-08-09 22:42:56,592 - Finish: run
