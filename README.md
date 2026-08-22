@@ -148,8 +148,8 @@ it has to be a perfect configuration or it will NOT build and you will not know 
 
 Dealing with these packages without a lot of patience will make you want to get a NEW HOBBY. 
 If you want to discourage someone on the fence aka "run someone off from software development linux"
-Gust give them these packages with only Clang/LLVM and make them build them over and over after making small changes in between builds.
-
+Just give them these packages with only Clang/LLVM and make them build them over and over after making small changes in between builds.
+Then wait for it.
 
 
 “The more they overthink the plumbing, the easier it is to stop up the drain.” Montgomery “Scotty” Scott 
