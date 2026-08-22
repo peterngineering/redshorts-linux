@@ -146,6 +146,11 @@ These all are C++ template shuffling memory eating behemoths. On top of that, so
 yet again. Then you tweak it for another run and open up a bug unrelated, the repeat. You can not have enough memory for these packages
 it has to be a perfect configuration or it will NOT build and you will not know it will not build until your deep down the rabbit hole.
 
+Dealing with these packages without a lot of patience will make you want to get a NEW HOBBY. 
+If you want to discourage someone on the fence aka "run someone off from software development linux"
+Gust give them these packages with only Clang/LLVM and make them build them over and over after making small changes in between builds.
+
+
 
 “The more they overthink the plumbing, the easier it is to stop up the drain.” Montgomery “Scotty” Scott 
 
