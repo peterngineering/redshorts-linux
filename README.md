@@ -92,20 +92,76 @@ gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC)
 
 
 
-
-
 *Most packages are built native on a Rpi4 or Tinker a-17 and or with mock.
-Below is helpful info imported from RSEL, some bits may nor may not be needed for native building.
+How did I get from redsleeve el9 to a Tinkerboard el9 ? Using a shortcut ofc!
+Eg, with a little consideration for compatibility you can take distro X's kernel and its modules and copy those over to your Distro Y's userland. Then quickly use its kconfig and build a proper new kernel from source so you don't lose any nerd street cred.
+
+
+
+
+---
+
+---
+# Milestones: Some fun and very challenging.
+
+Even though a lot of the hard work has seemingly already been done by redsleeve, when porting a new target you can still hit some hurdles. These are some of the big ones so far:
+
+
+
+## Necessity of Mock:
+
+Some packages will NOT build straight up with with just rpmbuild. Most of the ones that will not are due to some changes in python.
+When you hit that with direct building with rpmbuild a dependency loop will occur. Here's the most often error given:
+
+<code>
+Traceback (most recent call last):
+  File "/usr/bin/g-ir-scanner", line 98, in <module>
+    from giscanner.scannermain import scanner_main
+  File "/usr/lib/gobject-introspection/giscanner/scannermain.py", line 35, in <module>
+    from giscanner.ast import Include, Namespace
+  File "/usr/lib/gobject-introspection/giscanner/ast.py", line 29, in <module>
+    from .sourcescanner import CTYPE_TYPEDEF, CSYMBOL_TYPE_TYPEDEF
+  File "/usr/lib/gobject-introspection/giscanner/sourcescanner.py", line 25, in <module>
+    from .ccompiler import CCompiler
+  File "/usr/lib/gobject-introspection/giscanner/ccompiler.py", line 29, in <module>
+    from distutils.msvccompiler import MSVCCompiler
+ModuleNotFoundError: No module named 'distutils.msvccompiler'
+</code>
+
+If you research this you will learn that python was modified in later versions and straight rpmbuild can not resolve it.
+Soon as you try it in a chroot with mock it magically resolves the expectations for python and you can finally get a good build.
+I'm sure this isn't the only reason you HAVE TO use mock, it's just the one I recall I have hit most often.
+
+---
+
+## Chicken or the egg, which is first?
+Rust desires it be built with the target you want, armv6 --> armv7 will not work with --target=newtarget. 
+I played with this a few times, I tried fedora armv7hl builds then quickly hit dependency mismatches that added to the problem. Eventually I found the best way around this was to use the redsleeve armv6 packages, then install the exact same version of armv7l rust from archives right over the top of the armv6
+binaries. Then I was able to produce a proper armv7l-unknown-linux-gnueabihf rpm rust package. Of course I started with a new development environment after that. That was hard work but very gratifying afterwards. This approach is sometimes an easy shortcut way to get a bootstrapped version of a package.
+
+
+---
+## Webkit2GtK3/QtWebengine/Chromium 
+These all are C++ template shuffling memory eating behemoths. On top of that, so complex with so many deps that bugs always seem to occur. Just when you think you have one problem worked out another pops up, it is like software development wack-a-mole. You can get to near the end and just when you think its gonna build, OOPS processes killed.....out of memory...
+yet again. Then you tweak it for another run and open up a bug unrelated, the repeat. You can not have enough memory for these packages
+it has to be a perfect configuration or it will NOT build and you will not know it will not build until your deep down the rabbit hole.
+
+
+“The more they overthink the plumbing, the easier it is to stop up the drain.” Montgomery “Scotty” Scott 
+
+
+I'm still working out some issues with the above, I will get a good build, eventually. 
+
+
+
+I have hit other road bumps but they are not noteworthy as the above.
 
 
 ---
 ---
+Below is helpful info imported from RSEL, some bits may nor may not be needed for native building. Some of the instructions
+below imply building with a 64bit/32bit multilib OS.
 
-
-
-
-
-	
 
 
 
