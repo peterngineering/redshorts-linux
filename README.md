@@ -142,7 +142,7 @@ binaries. Then I was able to produce a proper armv7l-unknown-linux-gnueabihf rpm
 
 ---
 ## Webkit2GtK3/QtWebengine/Chromium 
-These all are C++ template shuffling memory eating behemoths. On top of that, so complex with so many deps that bugs always seem to occur. Just when you think you have one problem worked out another pops up, it is like software development wack-a-mole. You can get to near the end and just when you think its gonna build, OOPS processes killed.....out of memory...
+These all are C++ template shuffling memory eating behemoths. On top of that, so complex with so many deps that bugs always seem to occur. Just when you think you have one problem worked out another pops up, it is like software development whack-a-mole. You can get to near the end and just when you think its gonna build, OOPS processes killed.....out of memory...
 yet again. Then you tweak it for another run and open up a bug unrelated, the repeat. You can not have enough memory for these packages
 it has to be a perfect configuration or it will NOT build and you will not know it will not build until your deep down the rabbit hole.
 
