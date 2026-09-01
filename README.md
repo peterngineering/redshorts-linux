@@ -152,7 +152,8 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'distutils.msvccompiler'
 </code>
 
-If you research this you will learn that python was modified in later versions and straight rpmbuild can not resolve it.
+If you research this you will learn that python was modified in later versions and I snagged a bug somewhere,
+and straight rpmbuild can not resolve it on my builds so far.
 Soon as you try it in a chroot with mock it magically resolves the expectations for python and you can finally get a good build.
 I'm sure this isn't the only reason you HAVE TO use mock, it's just the one I recall I have hit most often.
 
