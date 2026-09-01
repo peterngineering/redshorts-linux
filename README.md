@@ -1,6 +1,28 @@
 # RedShorts / EL9
 
 **RedShorts Linux** was forked/ported from RedSleeve Linux targeting  armv7l.
+
+My primary focus on this project is noX/console programs. 
+Currently working on EGLFS noX only stuff with mythtv/ffmpeg/qtwebengine/qtbrowser.
+
+I have a few rpi2 32bit cortx-a7 boards around and they are still useful. The deprecation of arm/aarch32 makes it
+challenging on rpm systems. However, debian/raspios/alpine all keep this supported and running and I use them as reference designs
+often when i a wall of deprecation that hasn't already been solved by RSEL.
+
+This is from a packager and system builders perspective.
+I really like alpine(super lean and mean) and it's packaging is a lot like arch and some like debians apt, however. 
+The rpm system has spoiled me, I have a lot of invested time/education in rpm systems and I sincerely think a RPM based system
+is easier to manage and keep deps in track than alpine/debian or arch system.
+
+What some people hate about RPMS is it's complexity however, it is this complexity and consolidation that makes 
+a more consistent system IMO. Other distros are fine, I just like my building and storage in a user created repo
+with binaries/patches and sources all in one convenient package. I have distro hopped and learned a lot , I started out 
+on slackware but once I started building RPMS I have not seen 
+
+What I think would be a futre cool project would be to retool the Alpine Linux packing system to build from scratch from a rpm/srpm
+repo. I can almost hear gasping at the horror..... Seriously, I do think that would be a really nice setup with all the benefits of dep management and source management that RPM/yum/dnf brings. If you look at Oracle and all the RPM based  distros even the ones that have skewed off the RHEL path, they still enjoy a easily managed ecosystem of software.
+
+
 see:
 [ARM](http://en.wikipedia.org/wiki/ARM_architecture) 
 
@@ -8,7 +30,7 @@ see:
 core repos as close to the PNAELV as possible. 
 
 *  The RedShorts Linux repo here includes SPECS that are new or have changes
-*  SPECS here have been tested to build against both RSEL(armv6) and Redshorts(armv7) using mock.
+*  Most specs here have been tested to build against both RSEL(armv6) and Redshorts(armv7) using mock.
 *  The logs from the last test build(armv6) is in : mockresults  
 
 *  RedShorts does not have any public RPM repos at this time to host or upload everything.
@@ -110,7 +132,7 @@ Even though a lot of the hard work has seemingly already been done by redsleeve,
 
 ## Necessity of Mock:
 
-Some packages will NOT build straight up with with just rpmbuild. Most of the ones that will not are due to some changes in python.
+For me, some packages will NOT build straight up with with just rpmbuild. Most of the ones that will not are due to some changes in python.
 When you hit that with direct building with rpmbuild a dependency loop will occur. Here's the most often error given:
 
 <code>
@@ -131,6 +153,14 @@ ModuleNotFoundError: No module named 'distutils.msvccompiler'
 If you research this you will learn that python was modified in later versions and straight rpmbuild can not resolve it.
 Soon as you try it in a chroot with mock it magically resolves the expectations for python and you can finally get a good build.
 I'm sure this isn't the only reason you HAVE TO use mock, it's just the one I recall I have hit most often.
+
+I have tested the very same SRMS against aarch64 and they build fine without mock. I'm still looking to see what the diff is,
+it may turn out to be arm specific or it maybe be something with my toolchain/python setup. Note sure yet, it's just weird that
+the very same source RPMS build without mock on aarch64 with no problem or error. I have reset my development system
+at least 3 times from clean chroots to try and reduce errors being built upon, but something keeps creeping back in.
+
+
+
 
 ---
 
@@ -157,6 +187,17 @@ Then wait for it.
 
 I'm still working out some issues with the above, I will get a good build, eventually. 
 
+*qtwebengine. 
+After numerous iterations of QT versions and rebuilds I hit a wall with deprecated 32bit from upstream EL vendor.
+I learned that nodejs starting at 20.x on rhels expect to be 64bit, since I'm native building, 'this is a problem for me.'
+Patches from other arm distros bypass the issue up to qt 6.10.x, but I'll have to fudge in a nodejs 20 or patch and downgrade it
+to get more movement on the qtwebengine.
+
+*Webkit2Gtk3, still does not build for me on my armv7 redshorts or armv6 tooled redsleeve. Perhaps next I will
+create a new fresh spin of RSEL arm and try again for this.
+
+*Chromium, i have no motivation to work on x11 or wayland gui programs. I already built the basic XFCE/lightdm and a few gui apps
+which is where I will stop at. If I need a broswer on arm, I would rather focus on a console browser such at qutebrowser. Which of course depends on a stable modern working qtwebengine!
 
 
 I have hit other road bumps but they are not noteworthy as the above.
