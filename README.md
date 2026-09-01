@@ -17,9 +17,9 @@ is easier to manage and keep deps in track than alpine/debian or arch system.
 What some people hate about RPMS is it's complexity however, it is this complexity and consolidation that makes 
 a more consistent system IMO. Other distros are fine, I just like my building and storage in a user created repo
 with binaries/patches and sources all in one convenient package. I have distro hopped and learned a lot , I started out 
-on slackware but once I started building RPMS I have not seen 
+on slackware but once I started building RPMS I have not seen a packing system that is better.
 
-What I think would be a futre cool project would be to retool the Alpine Linux packing system to build from scratch from a rpm/srpm
+What I think would be a future cool project would be to retool the Alpine Linux packing system to build from scratch from a rpm/srpm
 repo. I can almost hear gasping at the horror..... Seriously, I do think that would be a really nice setup with all the benefits of dep management and source management that RPM/yum/dnf brings. If you look at Oracle and all the RPM based  distros even the ones that have skewed off the RHEL path, they still enjoy a easily managed ecosystem of software.
 
 
