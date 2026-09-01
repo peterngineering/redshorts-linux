@@ -20,7 +20,7 @@ with binaries/patches and sources all in one convenient package. I have distro h
 on slackware but once I started building RPMS I have not seen a packing system that is better.
 
 What I think would be a future cool project would be to retool the Alpine Linux packing system to build from scratch from a rpm/srpm
-repo. I can almost hear gasping at the horror..... Seriously, I do think that would be a really nice setup with all the benefits of dep management and source management that RPM/yum/dnf brings. If you look at Oracle and all the RPM based  distros even the ones that have skewed off the RHEL path, they still enjoy a easily managed ecosystem of software.
+repo. I can almost hear gasping at the horror..... Seriously, I do think that would be a really nice setup with all the benefits of dep management and source management that RPM/yum/dnf brings. If you look at Oracle and all the RPM based  distros even the ones that have skewed off the RHEL path, they still enjoy a easily managed ecosystem of software. I prefer quality over quantity.
 
 
 see:
