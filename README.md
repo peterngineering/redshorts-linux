@@ -10,7 +10,7 @@ challenging on rpm systems. However, debian/raspios/alpine all keep this support
 often when i hit a wall of deprecation that hasn't already been solved by RSEL.
 
 This is from a packager and system builders perspective.
-I really like alpine(super lean and mean) and it's packaging is a lot like arch and some like debians apt, however. 
+I really like alpine(super lean and mean) and its packaging is a lot like arch and some like debians apt, however. 
 The rpm system has spoiled me, I have a lot of invested time/education in rpm systems and I sincerely think a RPM based system
 is easier to manage and keep deps in track than alpine/debian or arch system.
 
