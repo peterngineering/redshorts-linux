@@ -199,8 +199,8 @@ to get more movement on the qtwebengine.
 *Webkit2Gtk3, still does not build for me on my armv7 redshorts or armv6 tooled redsleeve. Perhaps next I will
 create a new fresh spin of RSEL arm and try again for this.
 
-*Chromium, i have no motivation to work on x11 or wayland gui programs. I already built the basic XFCE/lightdm and a few gui apps
-which is where I will stop at. If I need a broswer on arm, I would rather focus on a console browser such at qutebrowser. Which of course depends on a stable modern working qtwebengine!
+*Chromium, i have no more motivation to work on x11 or wayland gui programs on this 32bit arm platform.
+I already built the basic XFCE/lightdm and a few gui apps which is where I will stop at. If I need a broswer on arm, I would rather focus on a console browser such at qutebrowser. Which of course depends on a stable modern working qtwebengine!
 
 
 I have hit other road bumps but they are not noteworthy as the above.
