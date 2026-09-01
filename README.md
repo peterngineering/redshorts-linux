@@ -7,7 +7,7 @@ Currently working on EGLFS noX only stuff with mythtv/ffmpeg/qtwebengine/qtbrows
 
 I have a few rpi2 32bit cortx-a7 boards around and they are still useful. The deprecation of arm/aarch32 makes it
 challenging on rpm systems. However, debian/raspios/alpine all keep this supported and running and I use them as reference designs
-often when i a wall of deprecation that hasn't already been solved by RSEL.
+often when i hit a wall of deprecation that hasn't already been solved by RSEL.
 
 This is from a packager and system builders perspective.
 I really like alpine(super lean and mean) and it's packaging is a lot like arch and some like debians apt, however. 
