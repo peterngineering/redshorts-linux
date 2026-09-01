@@ -26,7 +26,6 @@ repo. I can almost hear gasping at the horror..... Seriously, I do think that wo
 ---
 
 For more about arm see:
-
 [ARM](http://en.wikipedia.org/wiki/ARM_architecture) 
 
 **RedShorts Linux** follows most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
