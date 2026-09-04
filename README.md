@@ -30,8 +30,12 @@ repo. I can almost hear gasping at the horror..... Seriously, I do think that wo
 For more about arm see:
 [ARM](http://en.wikipedia.org/wiki/ARM_architecture) 
 
-**RedShorts Linux** follows most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
+**For RedShorts Linux** 9, it followed most conventions used from RedSleeve and imports it patches as required, but tries to keep the 
 core repos as close to the PNAELV as possible. 
+
+RedShorts 10 development will likely use conventions learned in version 9 and refer to other armv7 active distros upon hard stops.
+  * Early on it will likely deviate from upstreams 10 srcs some until the base development rounds are done. 
+
 
 *  The RedShorts Linux repo here includes SPECS that are new or have changes
 
