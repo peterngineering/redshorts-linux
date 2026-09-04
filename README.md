@@ -7,7 +7,7 @@
 My primary focus on this project is noX/console programs. 
 Currently working on EGLFS noX only stuff with mythtv/ffmpeg/qtwebengine/qtbrowser.
 
-I have a few rpi2 32bit cortx-a7 boards around and they are still useful. The deprecation of arm/aarch32 makes it
+I have a few rpi2 32bit cortex-a7 boards around and they are still useful. The deprecation of arm/aarch32 makes it
 challenging on rpm systems. However, debian/raspios/alpine all keep this supported and running and I use them as reference designs
 often when i hit a wall of deprecation that hasn't already been solved by RSEL.
 
@@ -34,8 +34,6 @@ For more about arm see:
 core repos as close to the PNAELV as possible. 
 
 *  The RedShorts Linux repo here includes SPECS that are new or have changes
-*  Most specs here have been tested to build against both RSEL(armv6) and Redshorts(armv7) using mock.
-*  The logs from the last test build(armv6) is in : mockresults  
 
 *  RedShorts does not have any public RPM repos at this time to host or upload everything.
 *  Links for full upstream source(s) are at the bottom of this page.
@@ -43,17 +41,6 @@ core repos as close to the PNAELV as possible.
 *  Any tested RPMS are not yet signed.
 *  You may re-use any you find and call them your own as you see fit, just share
 	   back any changes please. Crediting me in any way is not necessary or required. 
-   
-		* Redshorts is testing a custom_vendor macro for all changed rpms. Changed SRPM specs
-		will have %{?custom_vendor} appended after the {dist} macro in Release lines.
-		This will be ignored  unless the macro is populated via cmd line for
-		rpmbuild/mock etc  or set in .rpmmacros
-
-			-D "custom_vendor .redsleeve"
-		      or
-			-D "custom_vendor .redshorts"
-
-		
 		
 	*  The 'Eprs' repo directory will contain custom SPECS/RPMS that are new or highly modified/custom and don't belong in the core repos.
 
