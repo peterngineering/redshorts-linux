@@ -34,7 +34,9 @@ For more about arm see:
 core repos as close to the PNAELV as possible. 
 
 RedShorts 10 development will likely use conventions learned in version 9 and refer to other armv7 active distros upon hard stops.
-  * Early on it will likely deviate from upstreams 10 srcs some until the base development rounds are done. 
+  * Early on it will likely deviate from upstreams 10 srcs some until the base development rounds are done. Since Fedora stopped
+     aarch32 support builds(except for a few updates) long before fc40/Stream10/EL10 hit.
+      A lot will be in 'Undiscovered RPM Country!'
 
 
 *  The RedShorts Linux repo here includes SPECS that are new or have changes
