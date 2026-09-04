@@ -62,9 +62,6 @@ RedShorts 10 development will likely use conventions learned in version 9 and re
 
 WIP:
 
-<img width="653" height="313" alt="image" src="https://github.com/user-attachments/assets/0be044e1-c650-4d6c-bc21-6dd926d8c905" />
-
-
 
 <code>
 
