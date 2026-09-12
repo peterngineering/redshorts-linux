@@ -32,3 +32,9 @@ Converted a mock chroot with new required package and started work within it for
 ---
 
 <img width="1397" height="384" alt="dnfTest" src="https://github.com/user-attachments/assets/575b53c2-7c2d-4f49-b88e-e429039f6cfc" />
+
+
+---
+---
+# *The 10 project specs were imported from 9, only as templates, they have not been updated yet. I will provide clean specs of changes soon.
+---
