@@ -22,7 +22,7 @@ Converted a mock chroot with new required package and started work within it for
 * redhat-rpm-config-295 from el10 breaks compiles and needs work, use a fudged el9 version till near end of transition.
 * redhat-rpm-config-295 also conflicts with a systemd-macro* pkg
  * Built and force upgraded el10 rpm ver 4.19 with so.10* objects.
-  * Then manually built new bootstrap python 3.12 against that. 
+  * Then built new bootstrap python 3.12 against that. 
   * Then built bootstrap dnf deps on that until 'finally" getting a working chroot with updated dnf/python/rpm/toolchain.
     *Very tedious work, many bootstrap versions created to bypass early attempt of x11/desktop creep into early builds.*
 
