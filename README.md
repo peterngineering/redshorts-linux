@@ -1,7 +1,7 @@
 # RedShorts Linux was forked/ported from RedSleeve Linux targeting armv7l.
 *This project could not have been done so easily without the great previous works from RSEL devs. Thanks for sharing!*
 ---
-My primary focus on this project is noX/console programs. Currently working on EGLFS noX only stuff with mythtv/ffmpeg/qtwebengine/qtbrowser and network tools.
+My primary focus on this project is noX/console programs. Currently working on EGLFS noX only stuff with mythtv/ffmpeg/qtwebengine/qutebrowser and network tools.
 
 
 ## EL9-->EL10 Milestones, noted problems and procedural overview.
