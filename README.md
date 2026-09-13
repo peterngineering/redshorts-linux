@@ -2,7 +2,7 @@
    forked/ported from RedSleeve Linux, targeting  armv7l.
 
 ## THIS PROJECT is ONLY USED to build out RedShorts armv7hl/armv7hnl EL10.
-All SRPMs from EL9 were not rebuild, no new RPMS for this will be built unless 
+All SRPMs from EL9 were not rebuilt, no new RPMS for this will be built unless 
 they are needed to build out EL10 further.
 
 
