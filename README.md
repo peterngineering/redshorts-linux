@@ -21,7 +21,7 @@ Converted a mock chroot with new required package and started work within it for
 
  * Built and force upgraded el10 rpm ver 4.19 with so.10* objects.
   * Then manually built new bootstrap python 3.12 against that. 
-  * Then built bootstrap dnf deps on that until 'finally"  getting a working chroot with updated working python/rpm/dnf system.
+  * Then built bootstrap dnf deps on that until 'finally" getting a working chroot with updated dnf/python/rpm/toolchain.
     *Very tedious work, many bootstrap versions created to bypass early attempt of x11/desktop creep into early builds.*
 
 
