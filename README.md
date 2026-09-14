@@ -7,8 +7,8 @@ My primary focus on this project is noX/console programs. Currently working on E
 ## EL9-->EL10 Milestones, noted problems and procedural overview.
 *Most all work is done from within a Redshorts EL9 chroot for easy prototyping upgrades/new pkgs. This makes it easy 
 to go back to a backup chroot if dev system becomes broken.
-   * All el10 rpms will be built in el9 chroot, upgrading all until at el10 versions. Then the final stage full
-     rebuild will include el10 rpm macros/repos and labels accordingly. Then final adaptions and any packages deferred/bootstrapped rebuilt.
+   * All el10 rpms will be built in el9 chroot with a el10 dist macro, upgrading all until at el10 versions. Then the final stage full
+     rebuild will include el10 rpm macros/repos accordingly. Then final adaptions and any packages deferred/bootstrapped rebuilt.
 
 
 ### Compiled toolchain from e10 on el9.
